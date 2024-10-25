@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Personagem</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="personagem">
+        <div class="header">
+            <img id="imagem-personagem" src="deb0519f739744a9b97097d79af6108e.jpg" alt="Imagem do Personagem">
+            <div>
+                <h1 id="nome-personagem">Ulrika</h1>
+                <p id="classe-personagem">Classe: Guerreiro</p>
+            </div>
+        </div>
+
+        <div id="vida">
+            <p>Vida: <progress id="vida-personagem" value="0" max="100"></progress></p>
+        </div>
+        
+        <div id="mana">
+            <p>Mana: <progress id="mana-personagem" value="0" max="100"></progress></p>
+        </div>
+
+        <p>Habilidades: <span id="habilidades-personagem">-</span></p>
+        <p>Equipamento: <span id="equipamentos-personagem">-</span></p>
+        <p>Descrição: <span id="descricao-personagem">-</span></p>
+
+
+        <button id="gerar-personagem">Gerar Personagem</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
